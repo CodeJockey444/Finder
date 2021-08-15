@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@700&family=Playfair+Display:wght@700&display=swap");
+.banner {
+  background-color: #a4508b;
+  background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+}
+html,body{
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  height:10rem;
+  background: #5f0a87;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  opacity: 0.9;
+}
+
+.btn-bg {
+  background-color: #5f0a87;
+}
+.banner h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: bolder;
+  font-size: 5vw;
+}
+.banner p {
+  font-family: "cabin";
+  color: #fff;
+}
+#imageContainer {
+  display: grid;
+  place-content: center;
+  grid-gap: 0 10px;
+  grid-template-columns: repeat(3, 400px);
+  grid-auto-rows:10 ;
+}
+img:hover {
+  opacity: 0.85;
+}
+.footer{
+  position: 'sticky-bottom';
+}
+/*# sourceMappingURL=home.css.map */
